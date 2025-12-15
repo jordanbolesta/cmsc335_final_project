@@ -4,4 +4,4 @@
 **YouTube Video Link:** (INSERT LATER)  
 **APIs:** Wikipedia REST API (https://en.wikipedia.org/api/rest_v1/)  
 **Contact Email:** bolestaj@terpmail.umd.edu  
-**Deployed App Link:** https://cmsc335-final-project-6hkb.onrender.com
+**Deployed App Link:** ![render link](https://cmsc335-final-project-6hkb.onrender.com)
