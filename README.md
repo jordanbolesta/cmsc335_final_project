@@ -1,4 +1,4 @@
-Submitted by: Jordan Bolesta (bolestaj 120112683)  
+**bold**Submitted by:**bold** Jordan Bolesta (bolestaj 120112683)  
 Group Members: Jordan Bolesta (bolestaj 120112683)  
 App Description: Allows user to search for disabilty support services at UMD, and retrieve and view search information.  
 YouTube Video Link: (INSERT LATER)  
