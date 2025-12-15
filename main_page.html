@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Disability Resource Info Page</title>
+
+    <style> 
+        @import url(style.css);
+    </style>
+
+    <script src="script.js" defer></script>
+
+    <!-- Google Font: -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <div id="outside">
+    <div id="container">
+    <div id="inside">
+        <h1>UMD Student Support Finder</h1>
+
+        <p> Quickly find campus resources for ADHD, 
+            mental health, chronic illness, testing accomodations, counseling, 
+            and more. Select a topic below to get started!
+        </p>
+        <br>
+
+        <img id="main_pic" src="https://umd-today.transforms.svdcdn.com/production/es/heroes/FirstDayClasses_08292022_SC_3351-1920x1080.jpg?w=1920&h=1920&q=80&auto=format&fit=max&dm=1754706831&s=39ac54c9daa0c5c35564d6503fc8ca49">
+        <br>
+
+
+        <!-- Form for users to provide data -->
+        <form id="topicForm" action="/displayResources" method="POST">
+
+            <fieldset>
+                
+                <legend>Choose topics:</legend>
+                <label><input type="checkbox" name="topics" value="ADHD"> ADHD</label><br>
+                <label><input type="checkbox" name="topics" value="Mental Health"> Mental Health</label><br>
+
+                <label><input type="checkbox" name="topics" value="Chronic Illness"> Chronic Illness</label><br>
+                <label><input type="checkbox" name="topics" value="Counseling"> Counseling</label><br>
+                <label><input type="checkbox" name="topics" value="Disability">Additional Disability Accomodations</label><br>
+
+
+                <br>
+                <label>Additional comments or questions:</label>
+                <br>
+                <textarea name="comments" rows="5" cols="60"></textarea>
+
+            </fieldset>
+
+            <br>
+            <button type="submit">Find Resources</button>
+        
+        </form>
+        <br>
+
+        <form action="/reviewSearches" method="POST">
+            <button type="submit">View Search Statistics</button>
+        </form>
+
+    </div>
+    </div>
+    </div>
+
+</body>
+</html>

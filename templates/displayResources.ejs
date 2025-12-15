@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Display Resources</title>
+
+    <style> 
+        @import url(style.css);
+    </style>
+</head>
+
+<body>
+    <div id="outside-summary">
+    <div id="inside-summary">
+
+    
+        <h1>Resources for Your Selected  Topics</h1>
+        
+        <div class="table-container-summary">
+            <%- table %>
+        </div>
+        
+        <!-- <%- table %> -->
+
+        <p> Submitted at: <%= timestamp %></p>
+
+        <form id="displayForm" method="POST">
+
+            <button type="submit" formaction="/reviewSearches">View Search Statistics</button>
+            <button type="submit" formaction="/" formmethod="GET">Back to Main Page</button>
+
+        </form>
+
+    </div>
+    </div>
+
+</body>
+
+</html>

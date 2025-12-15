@@ -1,0 +1,159 @@
+html {
+
+    /* background color and font size */
+    font-size: 14px;
+    background-color: rgb(0, 0, 0);
+
+    /* google Font: */
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+  #outside {
+    background-color: rgb(126, 7, 7);
+    margin: auto;
+    margin-top: 2rem;
+    padding: .5rem;
+    width: 55rem;
+    border-radius: 5%;
+    height: 70rem;
+    
+}
+
+#inside {
+    margin: 1rem;
+    padding: 3rem;
+    padding-right: 5rem;
+    padding-left: 4.5rem;
+    border-color: rgb(0, 0, 0);
+    border-style: groove;
+    border-width: .5rem;
+    border-radius: 4%;
+    height: 61rem;
+
+    background-color: rgb(255, 252, 252); 
+}
+
+#outside-summary {
+    height:fit-content;
+    background-color: rgb(126, 7, 7);
+    margin: auto;
+    margin-top: 2rem;
+    padding: .5rem;
+    width: 55rem;
+    border-radius: 5%;
+
+}
+#inside-summary{
+    height:fit-content;
+
+    margin: 1rem;
+    padding: 3rem;
+    padding-right: 5rem;
+    padding-left: 4.5rem;
+    border-color: rgb(0, 0, 0);
+    border-style: groove;
+    border-width: .5rem;
+    border-radius: 4%;
+
+    background-color: rgb(255, 252, 252);
+
+
+}
+
+
+#main_pic{
+    display: block;
+    margin: auto;
+    height: 20rem;
+    width: 40rem;
+    border-width: .2rem;
+    border-color: black;
+    border-style: solid;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3rem;
+    background-color: #d32121;
+
+    /* color property: */
+    color: white;
+
+    border-color: black;
+    border-width: .2rem;
+    border-style: solid;;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+}
+
+fieldset {
+    font-size: medium;
+}
+
+form {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+
+/* style tables! */
+.tablez {
+    background-color: white;
+    width: 45rem;
+    margin-left: -1.1rem;
+}
+.tablez td {
+    padding-left: .5rem;
+    text-align: left;
+}
+/* table data: */
+.tablez td p {
+    padding-left: 1rem;
+    text-align: left;
+}
+
+
+/* lists of resources in the table: */
+.tablez td ul {
+    margin: 0;
+    padding-left: 1rem;
+    list-style-position: inside;
+}
+
+.tablez td li {
+    margin: 0.2rem 0;
+}
+
+.tablez td li::marker {
+    content: "•";
+}
+
+
+#displayForm {
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+
+} 
+
+.table-container-2 {
+    display: flex;
+    justify-content: center;
+    width: 22rem;
+    margin: auto;
+
+} 
